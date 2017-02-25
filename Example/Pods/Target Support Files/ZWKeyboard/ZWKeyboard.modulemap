@@ -1,0 +1,6 @@
+framework module ZWKeyboard {
+  umbrella header "ZWKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

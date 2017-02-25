@@ -1,0 +1,6 @@
+framework module Pods_ZWKeyboard_Tests {
+  umbrella header "Pods-ZWKeyboard_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

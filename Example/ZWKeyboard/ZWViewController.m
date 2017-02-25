@@ -7,7 +7,7 @@
 //
 
 #import "ZWViewController.h"
-
+#import "IDCardTextField.h"
 @interface ZWViewController ()
 
 @end
@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    IDCardTextField *passTF = [[IDCardTextField alloc]initWithFrame:CGRectMake(100, 100, self.view.bounds.size.width - 200, 40)];
+    passTF.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:passTF];
 }
 
 - (void)didReceiveMemoryWarning
