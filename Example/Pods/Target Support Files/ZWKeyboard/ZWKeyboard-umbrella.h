@@ -12,6 +12,7 @@
 
 #import "IDCardKeyBoard.h"
 #import "IDCardTextField.h"
+#import "NSObject+Amount.h"
 
 FOUNDATION_EXPORT double ZWKeyboardVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZWKeyboardVersionString[];
